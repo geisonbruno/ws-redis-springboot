@@ -4,4 +4,8 @@ spring:
   cache:
     type: redis
     redis:
-      time-to-live: 600000
+      time-to-live: 10000
+
+app:
+  auth:
+    jwks-url: https://dev-13d07ma4vrmy7e1c.us.auth0.com/.well-known/jwks.json
